@@ -1,0 +1,39 @@
+.projects {
+
+    &__header {
+        text-align: center;
+        width: 100%;
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        height: 30vh;
+        width: 100%;
+
+        &-project {
+            width: 20%;
+            background-color: #fff;
+            position: relative;
+            transition: .3s all;
+            
+            img {
+                background-position: center;
+                max-width: 100%;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
