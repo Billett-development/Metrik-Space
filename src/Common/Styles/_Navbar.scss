@@ -1,29 +1,28 @@
 .navigation {
+  width: 100%;
+  z-index: 1000;
+  background-color: #313639;
+  position: fixed;
 
-    width: 100%;
-    z-index: 1000; 
-    background-color: darkgray;
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
 
-    &__container {
+    &-item {
+      width: 10%;
+      text-align: center;
+      padding: 1rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 6vh;
-
-        &-item {
-            width: 10%;
-            text-align: center;
-            padding: 1rem;
-            text-transform: uppercase;
-            font-weight: 600;
-            cursor: pointer;
-            color: white;
-            
-            &:hover {
-                background-color: #fff;
-                color: black;
-            }
-        }
+      &:hover {
+        background-color: #fff;
+        color: black;
+      }
     }
+  }
 }

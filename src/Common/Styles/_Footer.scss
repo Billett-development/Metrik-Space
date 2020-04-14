@@ -1,63 +1,56 @@
 .footer {
+  height: 20vh;
 
-    height: 20vh;
+  &__arrow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
+    .arrow-icon {
+      font-size: 2rem;
+      color: white;
+      margin-top: -1rem;
+      padding: 3px;
+      background-color: rgb(14, 14, 14);
 
-    &__arrow {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-        .arrow-icon {
-           font-size: 2rem;
-           color: white;
-           margin-top: -1rem;
-           padding: 3px;
-           background-color: rgb(14, 14, 14);
-
-           &:hover {
-               background-color: #e95950;
-           }
-        }
+      &:hover {
+        background-color: #e95950;
+      }
     }
+  }
 
-    &__container {
-        padding-top: 6vh;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+  &__container {
+    padding-top: 6vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 
-        &-item {
-            margin: 0 2rem;
-            width: 10%;
-            text-align: center;
-            font-size: 4rem;
-        }
-
+    &-item {
+      margin: 0 2rem;
+      width: 10%;
+      text-align: center;
+      font-size: 4rem;
     }
+  }
 
-    &__copyright {
-        text-align: center;
-        padding-top: 8vh;
-    }
+  &__copyright {
+    text-align: center;
+    padding-top: 8vh;
+  }
 }
 
 .instagram-icon {
-    color: #e95950;
-    overflow: hidden;
-    cursor: pointer;
-
+  color: #313639;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .facebook-icon {
-
-    color: #0077B5;
-    overflow: hidden;
-    cursor: pointer;
+  color: #313639;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .linkedIn-icon {
-    color: #0e76a8;
-
+  color: #313639;
 }
-

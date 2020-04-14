@@ -1,26 +1,33 @@
 * {
-    
 }
 .navigation-section {
-    background-color: rgb(83, 83, 83);
+  background-color: #313639;
 }
 
-
 .services-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: rgb(83, 83, 83);
-    
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #313639;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .projects-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #f2f2f2;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .contact-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: rgb(83, 83, 83);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #313639;
+}
+
+body {
+  background: linear-gradient(rgb(206, 159, 252), rgb(115, 103, 240)) no-repeat
+    center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

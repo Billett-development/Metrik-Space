@@ -1,0 +1,39 @@
+.navigation-section {
+  background-color: #313639;
+}
+
+.services-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #313639;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contact-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #313639;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ce9ffc), to(#7367f0)) no-repeat center center fixed;
+  background: linear-gradient(#ce9ffc, #7367f0) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=Home.css.map */
